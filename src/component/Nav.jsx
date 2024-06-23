@@ -1,27 +1,3 @@
-// import smiley from '../assets/images/smiley.png'
-// import smidge from '../assets/images/smidge.png'
-// const Nav = () => {
-//   return (
-//    <div className="w-full bg-red-500 flex flex-row justify-between items-center p-4">
-//         <div className="">
-//         <a href="/" className="flex flex-row justify-center items-center">
-//            <img src={smiley} className="" alt="smiley logo" />
-//            <img src={smidge} className="" alt="smiley text logo" />
-//         </a>
-//         </div>
-//         <div>
-//             Link
-//         </div>
-//         <div>
-//             Button
-//         </div>
-//    </div>
-//   )
-// }
-
-// export default Nav
-
-
 import { useState } from "react";
 import smiley from '../assets/images/smiley.png'
 import smidge from '../assets/images/smidge.png'
@@ -106,7 +82,7 @@ const Nav = () => {
                 setIsMenuOpen(false);
               }}
             >
-              about Us
+              about 
             </a>
           </div>
           <div className={`my-4 lg:my-0 ${activeLink === "/" ? "active" : ""}`}>
