@@ -82,7 +82,7 @@ const Nav = () => {
                 setIsMenuOpen(false);
               }}
             >
-              about Us
+              about 
             </a>
           </div>
           <div className={`my-4 lg:my-0 ${activeLink === "/" ? "active" : ""}`}>

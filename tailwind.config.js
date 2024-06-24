@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         flyingBird: ["f Flying Bird Regular", "sans-serif"],
-        Balonku: ["Balonku", "cursive"],
+        Balonku: ["Balonku", "sans-serif"],
         VaguelyRetro: ["Vaguely Retro", "sans-serif"],
       },
       backgroundImage: {

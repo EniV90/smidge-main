@@ -26,7 +26,11 @@ const Home = () => {
             CA: 0xea3665e272f14052442e433fb0059424d16cc6c7
           </h2>
           <ul className="flex flex-row space-x-8 mt-10">
-          <a href="https://x.com/smidgeerc" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://x.com/smidgeerc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img
                   src={item1}
@@ -35,7 +39,11 @@ const Home = () => {
                 />
               </li>
             </a>
-            <a href="https://t.me/Smidgeerc" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://t.me/Smidgeerc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img
                   src={item2}
@@ -44,7 +52,11 @@ const Home = () => {
                 />
               </li>
             </a>
-            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x2d36fd38c4ecefabc0282795f5573f929301a41e?t=1719147572873" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.dextools.io/app/en/ether/pair-explorer/0x2d36fd38c4ecefabc0282795f5573f929301a41e?t=1719147572873"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img
                   src={item3}
@@ -53,7 +65,11 @@ const Home = () => {
                 />
               </li>
             </a>
-            <a href="https://dexscreener.com/ethereum/0x2d36fd38c4ecefabc0282795f5573f929301a41e" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://dexscreener.com/ethereum/0x2d36fd38c4ecefabc0282795f5573f929301a41e"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img
                   src={item4}
@@ -62,7 +78,11 @@ const Home = () => {
                 />
               </li>
             </a>
-            <a href="https://www.coingecko.com/en/coins/smidge" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.coingecko.com/en/coins/smidge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img
                   src={item5}
@@ -71,7 +91,11 @@ const Home = () => {
                 />
               </li>
             </a>
-            <a href="https://coinmarketcap.com/currencies/smidge/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://coinmarketcap.com/currencies/smidge/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img
                   src={item6}
@@ -107,7 +131,7 @@ const Home = () => {
             className="absolute top-[57%] translate-y-[-50%] left-[20px] w-44 h-44 md:w-62 md:h-62 lg:w-72 lg:h-72 lg:block hidden"
           />
           <div className="md:w-[60%] w-full rounded-2xl z-20 flex flex-col justify-center items-center text-white text-2xl">
-            <Widget />
+            {/* <Widget /> */}
           </div>
           <img
             src={widgetright}
@@ -212,32 +236,56 @@ const Home = () => {
       >
         <div className="w-[100%] lg:w-[70%] flex flex-col justify-start items-center pt-4 mt-4 px-[20px] lg:px-[100px]">
           <ul className="w-full flex flex-row justify-center  space-x-8 mt-10">
-            <a href="#">
+          <a
+              href="https://x.com/smidgeerc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img src={item1} alt="link1" />
               </li>
             </a>
-            <a href="#">
+            <a
+              href="https://t.me/Smidgeerc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img src={item2} alt="link1" />
               </li>
             </a>
-            <a href="#">
+            <a
+              href="https://www.dextools.io/app/en/ether/pair-explorer/0x2d36fd38c4ecefabc0282795f5573f929301a41e?t=1719147572873"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img src={item3} alt="link1" />
               </li>
             </a>
-            <a href="#">
+            <a
+              href="https://dexscreener.com/ethereum/0x2d36fd38c4ecefabc0282795f5573f929301a41e"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img src={item4} alt="link1" />
               </li>
             </a>
-            <a href="#">
+            <a
+              href="https://www.coingecko.com/en/coins/smidge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img src={item5} alt="link1" />
               </li>
             </a>
-            <a href="#">
+            <a
+              href="https://coinmarketcap.com/currencies/smidge/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li>
                 <img src={item6} alt="link1" />
               </li>
