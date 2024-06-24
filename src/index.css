@@ -29,6 +29,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 #root {
   margin: 0px;
   padding: 0px;
@@ -37,6 +38,37 @@
   text-align: center;
 }
 
-h1,h2,h3,h4,h5,h6,p,span, body{
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.p,
+span,
+.span,
+body {
   font-family: flyingBird sans-serif;
+}
+
+[class^="TokenOptions__OnHover"] {
+  display: none !important;
+}
+
+[type="text"]:focus {
+  box-shadow: none;
+}
+
+.widget-container .uniswap-widget {
+  width: 100%;
+}
+.fKGqDB {
+  width: 100%;
 }
