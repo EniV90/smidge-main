@@ -1,57 +1,55 @@
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
-import "../../src/index.css";
-// import "@dexhunterio/swaps/lib/assets/style.css";
-// import SwapWidget from "@dexhunterio/swaps";
-import { Suspense } from "react";
-import { getRPC } from "../lib//getRPC";
-import { SwapWidget } from '@uniswap/widgets'
+// import { AiOutlineLoading3Quarters } from "react-icons/ai";
+// import "../../src/index.css";
 
-// The url of the default uniswap token list. This list will be passed to the Uniswap component
-// and will appear by default in the token selector UI.
-const TOKEN_LIST = "https://ipfs.io/ipns/tokens.uniswap.org";
-
-const UNI = "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984";
-
-const Widget = () => {
-  if (typeof window !== "undefined") {
-    window.Browser = {
-      T: () => {},
-    };
-  }
+// import { Suspense } from "react";
+// import { getRPC } from "../lib//getRPC";
+// import { SwapWidget } from '@uniswap/widgets'
 
 
-  const settings = {
-    jsonRpcUrlMap: {
-      1: [getRPC(1)],
-    },
-    tokenList: TOKEN_LIST,
-    defaultInputTokenAddress: "NATIVE",
-    defaultInputAmount: "1",
-    defaultOutputTokenAddress: UNI,
-  };
+// const TOKEN_LIST = "https://ipfs.io/ipns/tokens.uniswap.org";
 
-  const theme =  {
-    primary: '#FFF',
-    secondary: '#A9A9A9',
-    interactive: '#000000',
-    container: '#000000',
-    module: '#222633',
-    accent: '#3B9239',
-    outline: '#CC1',
-    dialog: '#000',
-    fontFamily: 'Josefin Sans',
-    borderRadius: 0.5,
-  }
+// const UNI = "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984";
 
-  return (
-    <main className="w-full flex justify-center">
-      <Suspense 
-        fallback={<AiOutlineLoading3Quarters className="animate-spin" />}
-      >
-        <SwapWidget {...settings} theme={theme} width='100%'/>
-      </Suspense>
-    </main>
-  );
-};
+// const Widget = () => {
+//   if (typeof window !== "undefined") {
+//     window.Browser = {
+//       T: () => {},
+//     };
+//   }
 
-export default Widget;
+
+//   const settings = {
+//     jsonRpcUrlMap: {
+//       1: [getRPC(1)],
+//     },
+//     tokenList: TOKEN_LIST,
+//     defaultInputTokenAddress: "NATIVE",
+//     defaultInputAmount: "1",
+//     defaultOutputTokenAddress: UNI,
+//   };
+
+//   const theme =  {
+//     primary: '#FFF',
+//     secondary: '#A9A9A9',
+//     interactive: '#000000',
+//     container: '#000000',
+//     module: '#222633',
+//     accent: '#3B9239',
+//     outline: '#CC1',
+//     dialog: '#000',
+//     fontFamily: 'Josefin Sans',
+//     borderRadius: 0.5,
+//   }
+
+//   return (
+//     <main className="w-full flex justify-center">
+//       <Suspense 
+//         fallback={<AiOutlineLoading3Quarters className="animate-spin" />}
+//       >
+//         <SwapWidget {...settings} theme={theme} width='100%'/>
+//       </Suspense>
+//     </main>
+//   );
+// };
+
+// export default Widget;

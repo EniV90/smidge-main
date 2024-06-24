@@ -11,7 +11,7 @@ import widgetleft from "../assets/images/widgetleft.png";
 import aboutimg from "../assets/images/aboutimg.png";
 import tokenomics from "../assets/images/tokenomics.png";
 import Footer from "../component/Footer";
-import Widget from "../component/Widget";
+// import Widget from "../component/Widget";
 
 const Home = () => {
   return (
